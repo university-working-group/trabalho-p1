@@ -69,7 +69,6 @@ pip install opencv-python numpy scikit-learn dlib
 ### 4. Baixar modelos pré-treinados
 Crie uma pasta `models` e baixe os seguintes arquivos:
 - [Modelo de Embeddings Faciais (nn4.small2.v1.t7)](https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20180205_fp16/res10_300x300_ssd_iter_140000_fp16.caffemodel)
-- [Detector de Landmarks Faciais (shape_predictor_68_face_landmarks.dat)](https://github.com/davisking/dlib-models/raw/master/shape_predictor_68_face_landmarks.dat)
 
 Coloque os modelos baixados na pasta `models`.
 
