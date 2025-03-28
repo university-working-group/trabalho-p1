@@ -1,5 +1,4 @@
 .idea
-models/*
-**.log
+**.log'
 passmat_venv
 face_embeddings.npy

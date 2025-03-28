@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  facial-recognition:
+    build: .
+    volumes:
+      - ./face_database:/app/face_database
+      - ./logs:/app/logs
+    devices:
+      - /dev/video0:/dev/video0
+    environment:
+      - DISPLAY=${DISPLAY}
+    network_mode: "host"  # Facilita a conexão com o servidor X11
